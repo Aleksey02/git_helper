@@ -6,3 +6,4 @@
 * git commit -m 'MESSAGE' - Делает коммит с сообщением MESSAGE
 * git remote add origin 'URL' - Добавляет удалённый репозиторий с адресом URL
 * git push origin 'BRANCH' - Отправляет коммиты в удалённйы репозиторий на ветку BRANCH
+* git log - Показвает историю коммитов
