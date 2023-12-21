@@ -12,3 +12,15 @@
 * HEAD - это указатель на последний коммит в текущей ветке
 * Hash - это идентификатор коммита(например как id), который состоит из 40 символов. Если изменения в файле были одиннаковые, то и hash будет одинакковым.
 
+#### Жизненный цикл git
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "git commit"     --> tracked/comitted;
+  tracked    -- "modify file"     --> modified;
+  modified    -- "git add"     --> staged;
+
+%% стрелка без текста для примера: 
+  A --> B;
+``` 
